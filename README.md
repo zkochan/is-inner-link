@@ -1,5 +1,7 @@
 # is-inner-link
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zkochan/is-inner-link.svg)](https://greenkeeper.io/)
+
 > Returns true if a link targets a directory inside its parent directory
 
 <!--@shields('npm', 'travis', 'appveyor')-->
