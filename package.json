@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "pretest": "rimraf .tmp",
-    "test": "mos t && node test",
+    "test": "mos t && standard && node test",
     "md": "mos"
   },
   "repository": {
@@ -47,6 +47,7 @@
     "mos": "^2.0.0-alpha.3",
     "mos-plugin-readme": "^1.0.4",
     "rimraf": "^2.6.1",
+    "standard": "^10.0.2",
     "symlink-dir": "^1.0.2",
     "tape": "^4.6.3"
   }
