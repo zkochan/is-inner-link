@@ -19,9 +19,9 @@ npm i -S is-inner-link
 const isInnerLink = require('is-inner-link')
 
 isInnerLink('node_modules', 'foo')
-  .then(isInner => console.log(isInner))
+  .then(link => console.log(link))
   .catch(err => console.error(err))
-//> false
+//> {isInner: false, target: '/zkochan/foo'}
 ```
 
 ## License

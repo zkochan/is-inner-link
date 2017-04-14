@@ -10,8 +10,9 @@ test('is inner', t => {
   mkdirp.sync(target)
   symlinkDir(target, path.join(target, '..', '..', 'b'))
     .then(() => isInnerLink(path.resolve('.tmp', '1'), 'b'))
-    .then(isInner => {
-      t.ok(isInner)
+    .then(link => {
+      t.ok(link.isInner)
+      t.equal(typeof link.target, 'string')
       t.end()
     })
     .catch(t.end)
@@ -23,8 +24,9 @@ test('is not inner', t => {
   mkdirp.sync(target)
   symlinkDir(target, path.join(dest, 'b'))
     .then(() => isInnerLink(dest, 'b'))
-    .then(isInner => {
-      t.ok(!isInner)
+    .then(link => {
+      t.ok(!link.isInner)
+      t.equal(typeof link.target, 'string')
       t.end()
     })
     .catch(t.end)

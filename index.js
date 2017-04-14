@@ -6,5 +6,8 @@ const isSubdir = require('is-subdir')
 module.exports = function (parent, relativePathToLink) {
   const linkPath = path.resolve(parent, relativePathToLink)
   return getLinkTarget(linkPath)
-    .then(linkTarget => isSubdir(parent, linkTarget))
+    .then(target => ({
+      isInner: isSubdir(parent, target),
+      target
+    }))
 }
