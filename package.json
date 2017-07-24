@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/zkochan/is-inner-link#readme",
   "dependencies": {
-    "get-link-target": "^1.0.0",
+    "graceful-fs": "^4.1.11",
     "is-subdir": "^1.0.0"
   },
   "devDependencies": {

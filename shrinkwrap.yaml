@@ -1,5 +1,5 @@
 dependencies:
-  get-link-target: 1.0.0
+  graceful-fs: 4.1.11
   is-subdir: 1.0.1
   mkdirp: 0.5.1
   rimraf: 2.6.1
@@ -983,11 +983,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-nA4cQDCM6AT0eDYYuTf6iPmdUNA=
-  /get-link-target/1.0.0:
-    dependencies:
-      graceful-fs: 4.1.11
-    resolution:
-      integrity: sha1-f+8E9VGPDtoIi42HYI+e9pB/a/w=
   /get-stdin/4.0.1:
     dev: true
     resolution:
@@ -2657,7 +2652,7 @@ packages:
 registry: 'https://registry.npmjs.org/'
 shrinkwrapVersion: 3
 specifiers:
-  get-link-target: ^1.0.0
+  graceful-fs: ^4.1.11
   is-subdir: ^1.0.0
   mkdirp: ^0.5.1
   mos: ^2.0.0-alpha.3
