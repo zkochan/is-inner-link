@@ -25,6 +25,9 @@
     "name": "Zoltan Kochan",
     "url": "https://www.kochan.io"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "license": "MIT",
   "mos": {
     "plugins": [
