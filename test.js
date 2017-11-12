@@ -1,6 +1,6 @@
 'use strict'
 const test = require('tape')
-const isInnerLink = require('.')
+const isInnerLink = require('is-inner-link')
 const mkdirp = require('mkdirp')
 const path = require('path')
 const symlinkDir = require('symlink-dir').default
