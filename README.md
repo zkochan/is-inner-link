@@ -1,3 +1,5 @@
+> move to https://github.com/zkochan/packages/tree/master/is-inner-link
+
 # is-inner-link
 
 > Returns true if a link targets a directory inside its parent directory
