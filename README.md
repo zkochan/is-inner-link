@@ -1,4 +1,4 @@
-> move to https://github.com/zkochan/packages/tree/master/is-inner-link
+> moved to https://github.com/zkochan/packages/tree/master/is-inner-link
 
 # is-inner-link
 
